@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:test_ear_and_eyes/choosing.dart';
+import 'package:test_ear_and_eyes/eartest.dart';
 import 'package:test_ear_and_eyes/eyetest.dart';
+import 'package:starflut/starflut.dart';
+import 'package:test_ear_and_eyes/cataract.dart';
+import 'package:test_ear_and_eyes/homepage.dart';
+import 'package:test_ear_and_eyes/resulteye.dart';
+import 'package:test_ear_and_eyes/resultear.dart';
+import 'package:test_ear_and_eyes/homepage.dart';
+
+
 
 void main() {
   runApp(MyApp());
@@ -27,7 +37,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'First test Page'),
+      home: homepage(),
     );
   }
 }
